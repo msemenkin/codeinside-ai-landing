@@ -3,7 +3,7 @@ const caseStudies = {
     "cases": [
         {
             "id": "smart-parking",
-            "title": "Умные парковки с ИИ",
+            "title": "Паркинг будущего: ИИ находит место для каждого",
             "description": "Интеллектуальная система управления городскими парковками с использованием компьютерного зрения и ИИ для автоматизации",
             "image": "temp/codeinside.ru/wp-content/uploads/2022/10/2023-10-19_18-17-09.jpg",
             "technologies": ["Computer Vision", "Machine Learning", "Python", "Java"],
@@ -11,7 +11,7 @@ const caseStudies = {
         },
         {
             "id": "it-resource-management",
-            "title": "ИИ-система управления ресурсами",
+            "title": "AI-дирижёр IT-команд: оркестрация ресурсов",
             "description": "Интеллектуальная система управления ресурсами IT-компаний с ИИ-оптимизацией распределения задач и предиктивной аналитикой",
             "image": "temp/codeinside.ru/wp-content/uploads/2023/05/01_oblozhka-1.webp",
             "technologies": ["AI Analytics", "Machine Learning", "Java", "JavaScript"],
@@ -19,7 +19,7 @@ const caseStudies = {
         },
         {
             "id": "ship-communication",
-            "title": "Интеллектуальная система корабельной связи",
+            "title": "Морская связь под управлением ИИ: от шума к чистоте",
             "description": "Разработка системы корабельной связи с ИИ-анализом переговоров, умным шумоподавлением и автоматической архивацией",
             "image": "temp/codeinside.ru/wp-content/uploads/2023/05/dlya-sajta.webp",
             "technologies": ["Speech Recognition AI", "Machine Learning", "C++", "JavaScript"],
@@ -27,7 +27,7 @@ const caseStudies = {
         },
         {
             "id": "data-center-infrastructure",
-            "title": "Интеллектуальный мониторинг ЦОД",
+            "title": "Нейросети на страже дата-центра: умный мониторинг",
             "description": "Разработка системы интеллектуального мониторинга инфраструктуры ЦОД с использованием ИИ для предиктивной аналитики и автоматической оптимизации",
             "image": "temp/codeinside.ru/wp-content/uploads/2022/11/Servernaya.jpg",
             "technologies": ["AI Analytics", "Machine Learning", "Kotlin", "React"],
@@ -35,7 +35,7 @@ const caseStudies = {
         },
         {
             "id": "kt-snimki",
-            "title": "Автоматизация разметки КТ-снимков",
+            "title": "Нейросети анализируют КТ: революция в стоматологии",
             "description": "Разработка веб-приложения для автоматизации процесса разметки КТ-снимков в стоматологии на основе модели машинного обучения",
             "image": "temp/codeinside.ru/wp-content/uploads/2024/09/unnamed-4-2.jpg",
             "technologies": ["Java", "Machine Learning", "MedTech"],
@@ -43,7 +43,7 @@ const caseStudies = {
         },
         {
             "id": "smart-traffic",
-            "title": "Smart Traffic System",
+            "title": "Искусственный интеллект за рулём городского движения",
             "description": "Интеллектуальная система мониторинга дорожного движения с использованием компьютерного зрения",
             "image": "assets/uploads/2023/09/smart-traffic.webp",
             "technologies": ["Computer Vision", "Machine Learning"],
@@ -51,7 +51,7 @@ const caseStudies = {
         },
         {
             "id": "fer",
-            "title": "Федеральная электронная регистратура",
+            "title": "Искусственный интеллект в регистратуре: точность расписания",
             "description": "Модернизация системы здравоохранения с применением ИИ для оптимизации процессов",
             "image": "assets/uploads/2023/05/fer.webp",
             "technologies": ["AI Analytics", "Big Data"],
@@ -59,7 +59,7 @@ const caseStudies = {
         },
         {
             "id": "computer-vision",
-            "title": "Система компьютерного зрения",
+            "title": "Цифровые глаза производства: нейросети на страже качества",
             "description": "Внедрение интеллектуальной системы контроля на производственных предприятиях",
             "image": "assets/uploads/2023/06/argent-alyans.webp",
             "technologies": ["Computer Vision", "Deep Learning"],
@@ -67,7 +67,7 @@ const caseStudies = {
         },
         {
             "id": "marking-system",
-            "title": "Национальная система маркировки",
+            "title": "Интеллектуальная маркировка: ИИ против контрафакта",
             "description": "Тиражирование системы маркировки товаров с использованием ИИ и блокчейна",
             "image": "assets/uploads/2023/06/eaes-shuba.jpg",
             "technologies": ["AI", "Blockchain"],
@@ -75,19 +75,19 @@ const caseStudies = {
         },
         {
             "id": "insurance-system",
-            "title": "ЕГИС учета страховой помощи",
+            "title": "Нейросети оптимизируют страхование: ЕГИС нового формата",
             "description": "Разработка единой государственной системы учета страховой помощи с применением ИИ",
             "image": "temp/codeinside.ru/wp-content/uploads/2024/09/unnamed-5.jpg",
             "technologies": ["AI Analytics", "Big Data"],
             "link": "cases/insurance-system.html"
         },
         {
-            "id": "oil-gas-monitoring",
-            "title": "Геолокационный сервис для нефтегазового оборудования",
-            "description": "Система мониторинга и управления оборудованием для нефтегазовой отрасли",
+            "id": "geolocation",
+            "title": "Нейросети в действии: умный трекинг нефтегазового оборудования",
+            "description": "Разработка геолокационного сервиса для отслеживания и управления нефтегазовым оборудованием с применением ИИ",
             "image": "temp/codeinside.ru/wp-content/uploads/2024/12/special-operations-engineer-following-enemy-warships-submarines.jpg",
-            "technologies": ["React", "Spring Boot"],
-            "link": "cases/oil-gas-monitoring.html"
+            "technologies": ["AI Analytics", "IoT", "Big Data"],
+            "link": "cases/geolocation.html"
         }
     ]
 };
