@@ -1,0 +1,44 @@
+{
+    "cases": [
+        {
+            "id": "smart-traffic",
+            "title": "Smart Traffic System",
+            "description": "Интеллектуальная система мониторинга дорожного движения с использованием компьютерного зрения",
+            "image": "assets/uploads/2023/09/smart-traffic.webp",
+            "link": "cases/smart-traffic.html",
+            "technologies": ["Computer Vision", "Machine Learning"]
+        },
+        {
+            "id": "fer",
+            "title": "Федеральная электронная регистратура",
+            "description": "Модернизация системы здравоохранения с применением ИИ для оптимизации процессов",
+            "image": "assets/uploads/2023/05/fer.webp",
+            "link": "cases/fer.html",
+            "technologies": ["AI Analytics", "Big Data"]
+        },
+        {
+            "id": "computer-vision",
+            "title": "Система компьютерного зрения",
+            "description": "Внедрение интеллектуальной системы контроля на производственных предприятиях",
+            "image": "assets/uploads/2023/06/argent-alyans.webp",
+            "link": "cases/computer-vision.html",
+            "technologies": ["Computer Vision", "Deep Learning"]
+        },
+        {
+            "id": "marking-system",
+            "title": "Национальная система маркировки",
+            "description": "Тиражирование системы маркировки товаров с использованием ИИ и блокчейна",
+            "image": "assets/uploads/2023/06/eaes-shuba.jpg",
+            "link": "cases/marking-system.html",
+            "technologies": ["AI", "Blockchain"]
+        },
+        {
+            "id": "insurance-system",
+            "title": "ЕГИС учета страховой помощи",
+            "description": "Разработка единой государственной системы учета страховой помощи с применением ИИ",
+            "image": "assets/uploads/2023/06/egis-strahovka.jpg",
+            "link": "cases/insurance-system.html",
+            "technologies": ["AI Analytics", "Big Data"]
+        }
+    ]
+}

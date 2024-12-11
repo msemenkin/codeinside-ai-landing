@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #2D3142;
+    --secondary-color: #4F5D75;
+    --accent-color: #007AFF;
+    --light-color: #F7F9FC;
+    --dark-color: #1A1B1E;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+
+/* Case Study Cards */
+.case-card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.case-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.case-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.case-card .card-body {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.case-card .card-body p {
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.case-card .btn {
+    margin-top: auto;
+}
+
+.tech-stack {
+    display: inline-block;
+    background: var(--light-color);
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin: 4px;
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+/* Case Study Details */
+.case-hero {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 80px 0;
+}
+
+.case-details {
+    background: var(--light-color);
+}
+
+.feature-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.feature-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.feature-list li:last-child {
+    border-bottom: none;
+}
+
+.sidebar-card {
+    background: white;
+    margin-bottom: 24px;
+}
+
+.result-card {
+    background: white;
+    height: 100%;
+}
+
+/* Responsive Images */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.case-card {
+    animation: fadeIn 0.6s ease-out;
+}
